@@ -4,6 +4,8 @@
 </p>
 
 ---
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/upb-lea/deep-pmsm/master/LICENSE)
+
 **DEEP learning for Permanent Magnet Synchronous Motor temperatures**. This project aims to estimate temperature sequences inside Permanent Magnet Synchronous Motors from given input sequences, that is, 
 currents, voltages, coolant and ambient temperatures, and torque as well as motor speed.
 All sensor data is recorded on a testbench.
