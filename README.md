@@ -58,16 +58,13 @@ Most configurations can be adjusted in *pmsm/preprocessing/config.py*.
 This repository is published in order to support reproducability of experiments from the IEMDC 2019 conference paper [Deep Residual Convolutional and Recurrent Neural Networks for Temperature Estimation in Permanent Magnet Synchronous Motors](https://doi.org/10.1109/IEMDC.2019.8785109).
 If you are using this code please cite as follows.
 ```
-@INPROCEEDINGS{8785109,
-author={W. {Kirchgässner} and O. {Wallscheid} and J. {Böcker}},
-booktitle={2019 IEEE International Electric Machines Drives Conference (IEMDC)},
-title={Deep Residual Convolutional and Recurrent Neural Networks for Temperature Estimation in Permanent Magnet Synchronous Motors},
-year={2019},
+@ARTICLE{9296842,
+author={W. {Kirchgassner} and O. {Wallscheid} and J. {Boecker}},
+journal={IEEE Transactions on Power Electronics},
+title={Estimating Electric Motor Temperatures with Deep Residual Machine Learning},
+year={2020},
 volume={},
 number={},
-pages={1439-1446},
-keywords={Machine Learning;Deep Learning;Thermal Management;Permanent Magnet Synchronous Motor;Neural Networks},
-doi={10.1109/IEMDC.2019.8785109},
-ISSN={},
-month={May},}
+pages={1-1},
+doi={10.1109/TPEL.2020.3045596}}
 ```
