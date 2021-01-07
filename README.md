@@ -55,7 +55,7 @@ Most configurations can be adjusted in *pmsm/preprocessing/config.py*.
   + Visualize results of a certain hyperparameter search, given its UID.
 
 # Citation
-This repository is published in order to support reproducability of experiments from the IEMDC 2019 conference paper [Deep Residual Convolutional and Recurrent Neural Networks for Temperature Estimation in Permanent Magnet Synchronous Motors](https://doi.org/10.1109/IEMDC.2019.8785109).
+This repository is published in order to support reproducability of experiments from the journal article [Estimating Electric Motor Temperatures with Deep Residual Machine Learning](https://ieeexplore.ieee.org/abstract/document/9296842).
 If you are using this code please cite as follows.
 ```
 @ARTICLE{9296842,
