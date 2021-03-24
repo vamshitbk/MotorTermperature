@@ -59,12 +59,12 @@ This repository is published in order to support reproducability of experiments 
 If you are using this code please cite as follows.
 ```
 @ARTICLE{9296842,
-author={W. {Kirchgassner} and O. {Wallscheid} and J. {Boecker}},
-journal={IEEE Transactions on Power Electronics},
-title={Estimating Electric Motor Temperatures with Deep Residual Machine Learning},
-year={2020},
-volume={},
-number={},
-pages={1-1},
-doi={10.1109/TPEL.2020.3045596}}
+  author={W. {Kirchgässner} and O. {Wallscheid} and J. {Böcker}},
+  journal={IEEE Transactions on Power Electronics}, 
+  title={Estimating Electric Motor Temperatures With Deep Residual Machine Learning}, 
+  year={2021},
+  volume={36},
+  number={7},
+  pages={7480-7488},
+  doi={10.1109/TPEL.2020.3045596}}
 ```
