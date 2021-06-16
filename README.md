@@ -10,8 +10,6 @@
 currents, voltages, coolant and ambient temperatures, and torque as well as motor speed.
 All sensor data is recorded on a testbench.
 
-*Caution: Dataset is anonymized and incomplete in order to meet confidentiality obligations.*
-
 # Getting Started
 In order to clone this repo and use as a package in your own python projects, proceed as follows:
 ```
@@ -30,8 +28,6 @@ Alternatively, work with this repo directly if you do not intend to import parts
 Download the dataset here:
 https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
-You can also just click [here](https://www.kaggle.com/wkirgsn/electric-motor-temperature/downloads/electric-motor-temperature.zip/2).
-Place the unzipped .csv file in pmsm/data/input/.
 
 # Structure
 Data must be available in *pmsm/data/input* - all results of trainings and 
