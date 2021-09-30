@@ -12,7 +12,8 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
-from tensorflow import set_random_seed
+#from tensorflow import set_random_seed #valid for tensorflow1
+from tensorflow import random #valid for tensorflow1
 from sklearn.metrics import mean_squared_error
 from keras.preprocessing.sequence import TimeseriesGenerator
 from keras.models import model_from_json
@@ -545,7 +546,8 @@ class TrialReports:
             model_uuid = str(uuid.uuid4())[:6]
             print('model uuid: {}, seed: {}'.format(model_uuid, trial_seed))
             np.random.seed(trial_seed)
-            set_random_seed(trial_seed)
+            #set_random_seed(trial_seed) #valid for tensorflow1
+            random.set_seed(trial_seed) #valid for tensorflow2
             report = Report(uid=model_uuid, seed=trial_seed)
 
             yield report
@@ -603,7 +605,8 @@ Ensemble Score: {self.ensemble_score:.6} K²
         model_uuid = str(uuid.uuid4())[:6]
         print('model uuid: {}, seed: {}'.format(model_uuid, seed))
         np.random.seed(seed)
-        set_random_seed(seed)
+        #set_random_seed(seed) #valid for tensorflow1
+        random.set_seed(seed) #valid for tensorflow2
         report = Report(uid=model_uuid, seed=seed)
 
         model = model_func(**init_params)
