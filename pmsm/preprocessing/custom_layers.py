@@ -3,8 +3,10 @@ https://github.com/openai/weightnorm
 """
 from keras import backend as K
 from keras import layers, initializers, regularizers, constraints
-from keras.engine import InputSpec
-from keras.optimizers import SGD, Adam
+#from keras.engine import InputSpec # older keras
+from tensorflow.keras.layers import InputSpec #updated keras
+#from keras.optimizers import SGD, Adam
+from tensorflow.keras.optimizers import SGD, Adam
 import tensorflow as tf
 
 
