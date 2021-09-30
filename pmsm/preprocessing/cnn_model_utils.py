@@ -1,7 +1,8 @@
 from keras import layers
 from keras import models
-from keras.engine import InputSpec
-import keras.optimizers as opts
+#from keras.engine import InputSpec # old version of keras
+from tensorflow.keras.layers import InputSpec #updated keras
+import tensorflow.keras.optimizers as opts
 import keras.regularizers as regularizers
 import keras.backend as K
 from keras.models import Sequential
