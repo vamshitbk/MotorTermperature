@@ -8,7 +8,8 @@ import gc
 import numpy as np
 from preprocessing import select_gpu  # choose GPU through import
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau
-from tensorflow import set_random_seed
+#from tensorflow import set_random_seed #valid for tensorflow1
+from tensorflow import random #valid for tensorflow2
 from preprocessing.data import LightDataManager
 import preprocessing.file_utils as futils
 #from preprocessing.model_utils import *
@@ -17,7 +18,8 @@ from preprocessing.cnn_model_utils import build_cnn_model, CNNKerasRegressor
 # Ensure reproducibility
 SEED = cfg.data_cfg['random_seed']
 np.random.seed(SEED)
-set_random_seed(SEED)
+#set_random_seed(seed) #valid for tensorflow1
+random.set_seed(SEED) #valid for tensorflow2
 
 
 def main():
@@ -103,4 +105,6 @@ def main():
 
 if __name__ == '__main__':
     trial_reports = main()
+
+
 
